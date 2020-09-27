@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication App | EmanuelZM</title>
+    <!-- Flameworks CSS -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Mi css -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="uk-margin uk-margin-top uk-card uk-card-default uk-card-body container rounded">
+            <a href="http://emanuelzm.tech" target="_blank" rel="noopener noreferrer" class="uk-link-heading">
+                <p><img src="logo.png" class="rounded-circle" alt="emanuelzm" width="35px" height="35px"> EmanuelZM</p>
+            </a>
+            <h3 class="em-text-center-tittle">Join thousands of learners from around the world</h3>
+            <p class="em-text-justify-subjet">Master web development by making real-life projects. There are multiple paths for you to choose</p>
+            <form action="personalInfo.html" method="post">
+                <label class="em-text-size uk-text-bolder">Login</label>
+                <div class="form-group">
+                    <input type="email" name="emailLogue" id="emailLogue" class="form-control emailLogue" required placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="passLogue" id="passLogue" class="form-control passLogue" required placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+            </form>
+            <div class="uk-align-center">
+                <p class="em-text-center">or continue with these social profile</p>
+                <center>
+                    <!-- Autenticacion con redes sociales, Con Uikit -->
+                    <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                    <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="facebook"></a>
+                    <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="google"></a>
+                    <a href="" class="uk-icon-button" uk-icon="github"></a>
+                </center>
+                <p class="em-text-center">Don't have an account yet? <a href="./index.html">Register</a></p>
+            </div>
+        </div>
+        <p>
+            <a href="" class="uk-align-left">EmanuelZM</a>
+            <a href="" class="uk-align-right">EmanuelZM.Tech</a>
+        </p>
+    </div>
+    <!-- Flameworks JS -->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+</body>
+</html>

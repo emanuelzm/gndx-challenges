@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication App | EmanuelZM</title>
+    <!-- Flameworks CSS -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Mi css -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="#"><img src="logo.png" class="rounded-circle" alt="emanuelzm" width="35px" height="35px">       EmanuelZM</a></li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#"><img src="logo.png" class="rounded-circle" alt="emanuelzm" width="35px" height="35px">        Admin<span uk-icon="icon: triangle-down"></span></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a uk-toggle href="#modal-example"><span uk-icon="icon: sign-out"></span>        Logout</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- Arriba -->
+        <p><a href="./personalInfo.html" class="uk-align-left"><span uk-icon="icon: chevron-left"></span> Back</a></p>
+        <!-- Contenido -->
+        <div class="uk-margin uk-margin-top uk-card uk-card-default uk-card-body container">
+            <div class="rounded-top">
+                <h3 class="em-text-left-tittle">Change Info</h3>
+                <p class="em-text-justify-subjet">Changes will be refrected to every services</p>
+            </div>
+            <br>
+            <div class="rounded-bottom">
+                <form>
+                    <div class="form-group row">
+                        <label for="inputPassword1" class="col-sm-2 col-form-label">Photo</label>
+                        <div class="col-sm-10">
+                            <input type="password"  placeholder="Enter your url img..." class="borderAll form-control" id="inputPassword1">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <label for="inputPassword2" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="Enter your name..." class="borderAll form-control" id="inputPassword2">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Bio</label>
+                        <div class="col-sm-10">
+                            <textarea class="borderAll form-control" placeholder="Enter your bio..." id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <label for="inputPassword4" class="col-sm-2 col-form-label">Phone</label>
+                        <div class="col-sm-10">
+                            <input type="number" placeholder="Enter your phone..." class="borderAll form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <label for="inputPassword5" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" placeholder="Enter your email..." class="borderAll form-control" id="inputPassword5">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <label for="inputPassword6" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" placeholder="Enter your new password..." class="borderAll form-control" id="inputPassword6">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="rounded-bottom">
+            </div>
+        </div>
+        <!-- Abajo -->
+        <p>
+            <a href="" class="uk-align-left">EmanuelZM</a>
+            <a href="" class="uk-align-right">EmanuelZM.Tech</a>
+        </p>
+    </div>
+    <!-- Widjets -->
+        <!-- This is the modal -->
+        <div id="modal-example" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+                <h2 class="uk-modal-title">Ya te vas :(</h2>
+                <p>Todavia hay mucho que hacer</p>
+                <p class="uk-text-right">
+                    <button class="uk-button uk-button-default uk-modal-close" type="button">Regresar</button>
+                    <button class="uk-button uk-button-primary" type="button"><a href="logout.html">Salir</a></button>
+                </p>
+            </div>
+        </div>
+    <!-- Flameworks JS -->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.em-text-center-tittle{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.em-text-center-subjet{
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.em-text-center{
+    text-align: center;
+}
+.em-text-size{
+    font-size: 125%;
+}
+.lineaGris{
+    background-color: dimgray;
+    color: dimgray;
+}
+.em-text-left-tittle{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.borderAll{
+    border-color: #999;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
